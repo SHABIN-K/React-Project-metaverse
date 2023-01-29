@@ -9,7 +9,7 @@ import { TypingText, ExploreCard, TitleText } from '../components'
 
 
 const Explore = () => { 
-  const [active, setActive] = useState('world-1');
+  const [active, setActive] = useState('world-2');
   return(
   <section className={`${styles.paddings} `} id="explore">
     <motion.div 
@@ -24,7 +24,7 @@ const Explore = () => {
            textStyles="text-center"/>
 
         <TitleText 
-           title={<>Choose the world you want <br className='md:block hidden '/> to explore</>}
+           title={<>Choose the world you want<br className='md:block hidden '/>to explore</>}
            textStyles="text-center"
           />
 
