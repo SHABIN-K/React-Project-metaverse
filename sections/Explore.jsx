@@ -1,13 +1,15 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { useState } from 'react';
 import styles from '../styles'
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import {exploreWorlds} from '../constants'
 import { staggerContainer } from '../utils/motion'
 import { TypingText, ExploreCard, TitleText } from '../components'
-import {exploreWorlds} from '../constants'
 
-const Explore = () => ( 
+
+const Explore = () => { 
+  const [active, setActive] = useState('world-1');
   return(
   <section className={`${styles.paddings} `} id="explore">
     <motion.div 
@@ -33,12 +35,13 @@ const Explore = () => (
              {...world}
              index={index}
              active={active}
-             handleClick={SelActive}/>
+             handleClick={setActive}/>
           ))}
         </div> 
 
     </motion.div>
   </section>
-));
+)
+};
 
 export default Explore;
