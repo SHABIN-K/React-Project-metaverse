@@ -11,7 +11,7 @@ const Hero = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25}} //https://www.framer.com/motion/examples/#scroll-triggered-animations*
+      viewport={{ once: false, amount: 0.25}} //https://www.framer.com/motion/examples/#scroll-triggered-animations
       className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div className="flex flex-col justify-center items-center relative z-10">
