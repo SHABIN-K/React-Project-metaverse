@@ -13,7 +13,7 @@ const WhatsNew = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-     // viewport={{once: 'false', amount: 0.25}}
+      viewport={{once: 'false', amount: 0.25}}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}>
 
        <motion.div
@@ -24,7 +24,7 @@ const WhatsNew = () => (
                title="| Whats New?"/>
             
             <TitleText 
-               title={<>What's new about Metaversus?</>}/>
+               title={<>What's new about Metaverse?</>}/>
 
             <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
               {newFeatures.map(( feature, index) => (
