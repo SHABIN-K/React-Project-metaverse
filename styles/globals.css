@@ -24,14 +24,6 @@
   filter: blur(125px);
 }
 
-.hero-gradient {
-  background: linear-gradient(
-    97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
-  );
-}
 
 .gradient-02 {
   position: absolute;
@@ -83,7 +75,16 @@
     rgba(255, 255, 255, 0) 100%
   );
 }
+.footer-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
 
+  background: #65c4fa;
+  filter: blur(150px);
+}
 .feedback-gradient {
   position: absolute;
   width: 200px;
@@ -95,7 +96,7 @@
   filter: blur(175px);
 }
 
-.footer-gradient {
+.insight-gradient {
   position: absolute;
   width: 500px;
   height: 100px;
@@ -104,4 +105,52 @@
 
   background: #65c4fa;
   filter: blur(150px);
+}
+.map-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
+
+  background: #65c4fa;
+  filter: blur(150px);
+}
+.whatsnew-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
+
+  background: #65c4fa;
+  filter: blur(150px);
+}
+.getstarted-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
+
+  background: #65c4fa;
+  filter: blur(150px);
+}
+.world-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
+
+  background: #65c4fa;
+  filter: blur(150px);
+}
+.hero-gradient {
+  background: linear-gradient(
+    97.86deg,
+    #a509ff 0%,
+    #34acc7 53.65%,
+    #a134c7 100%
+  );
 }
