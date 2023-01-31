@@ -53,9 +53,10 @@ const World = () => (
                     src="/people-01.png" 
                     alt="people" 
                     className="w-full h-full" />
-                </div>
-                
-                <div className="absolute  ">
+                 </div>
+                 
+                {/* 
+              <div className="absolute  ">
                   <img 
                     src="/map-planet-01.svg" 
                     alt="map-planet-01" 
@@ -66,7 +67,9 @@ const World = () => (
                     src="/" 
                     alt="people" 
                     className="" />
-                </div>
+                    </div>
+               
+                    */}
                
 
             </motion.div>
