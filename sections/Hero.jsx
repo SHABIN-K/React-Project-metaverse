@@ -3,6 +3,7 @@
 import {motion} from 'framer-motion';
 import styles from '../styles'
 import {slideIn,staggerContainer,textVariant} from '../utils/motion'
+import { TypingText } from '../components'
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
@@ -14,6 +15,12 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25}} //https://www.framer.com/motion/examples/#scroll-triggered-animations
       className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
+        <div className="">
+          <TypingText 
+              title="| Home"
+               />
+        </div>
+
         <div className="flex flex-col justify-center items-center relative z-10">
 
           <motion.h1
