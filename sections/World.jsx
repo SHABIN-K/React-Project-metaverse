@@ -55,17 +55,17 @@ const World = () => (
                     className="w-full h-full" />
                 </div>
                 
-                <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] ">
+                <div className="absolute  ">
                   <img 
-                    src="/people-03.png" 
-                    alt="people" 
-                    className="w-full h-full" />
+                    src="/map-planet-01.svg" 
+                    alt="map-planet-01" 
+                    className="w-[211px] h-[563px] left-[881px] top-[4578px]" />
                 </div>
-                <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] ">
+                <div className=" ">
                   <img 
-                    src="/people-01.png" 
+                    src="/" 
                     alt="people" 
-                    className="w-full h-full" />
+                    className="" />
                 </div>
                
 
