@@ -27,7 +27,6 @@ const InsightCard = ({ imgUrl, title, subtitle, index}) => (
             alt="arrow" 
             className="w-[40%] h-[40%] object-contain" />
         </div>
-        <div className="insight-a-gradient insight-b-gradient insight-c-gradient insight-d-gradient" /> 
 
       </div>
     
