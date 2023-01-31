@@ -96,16 +96,55 @@
   filter: blur(175px);
 }
 
-.insight-gradient {
-  position: absolute;
-  width: 500px;
-  height: 100px;
-  left: 37%;
-  bottom: 0;
 
-  background: #65c4fa;
-  filter: blur(150px);
+.insight-a-gradient {
+position: absolute;
+width: 197px;
+height: 408px;
+left: 1578.23px;
+top: 6183.6px;
+
+background: #CFECFD;
+filter: blur(50px);
+transform: rotate(-87.51deg);
 }
+.insight-b-gradient {
+  position: absolute;
+width: 504px;
+height: 601px;
+left: 1307.35px;
+top: 6197.83px;
+
+background: #2565E1;
+filter: blur(125px);
+transform: rotate(-87.51deg);
+  }
+.insight-c-gradient {
+  position: absolute;
+  width: 342px;
+  height: 408px;
+  left: 1492.73px;
+  top: 6377.07px;
+  
+  background: #D225E1;
+  filter: blur(125px);
+  transform: rotate(-87.51deg);
+}
+
+.insight-d-gradient {
+  position: absolute;
+width: 665px;
+height: 638px;
+left: 1461.41px;
+top: 6761.6px;
+
+background: #7AEBFB;
+filter: blur(250px);
+transform: rotate(-104.3deg);
+
+  }
+
+
 .map-gradient {
   position: absolute;
   width: 500px;
