@@ -1,6 +1,6 @@
 ﻿# React-project-Metaverse
  
-Modern UI/UX website using React.js & Tailwind CSS
+Modern Next 13 website with Framer Motion & Tailwind CSS
 
 <a href="https://hoooooobank.onrender.com" target="_blank">**Visit Now** 🚀</a>
 
